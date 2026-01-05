@@ -1,0 +1,7 @@
+#!/bin/bash
+
+# set -xe
+
+file=/home/saurab/Pictures/Screenshots/$(date +"Screenshot-%Y-%m-%d-%T.jpg")
+grim $file
+notify-send "Screenshot" "Screenshot is saved in $file"

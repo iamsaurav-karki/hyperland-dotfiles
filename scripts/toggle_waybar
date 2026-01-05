@@ -1,0 +1,4 @@
+#!/usr/bin/env sh
+
+pkill waybar 2>/dev/null 1>&2 || waybar 2>/dev/null 1>&2 &
+

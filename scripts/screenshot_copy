@@ -1,0 +1,13 @@
+#!/bin/bash
+
+# Exit immediately if a command exits with a non-zero status
+set -e
+
+# Try to take the screenshot and handle any errors
+if file=$(slurp | grim -g - - | wl-copy); then
+    notify-send "Screenshot" "Screenshot is copied to clipboard"
+else
+    notify-send "Screenshot Failed" "Failed to take screenshot with grimblast"
+    exit 1
+fi
+

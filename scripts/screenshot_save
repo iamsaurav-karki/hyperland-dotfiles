@@ -1,0 +1,7 @@
+#!/bin/bash
+
+# set -xe
+
+
+file=$(grimblast --cursor save area ~/Pictures/screenshots/$(date +'Screenshot-%Y-%m-%d-%T.jpg'))
+notify-send "Screenshot" "Screenshot is saved in $file"

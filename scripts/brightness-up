@@ -1,0 +1,8 @@
+#!/bin/bash
+
+# Increase internal display brightness
+brightnessctl set +10%
+
+# Increase external monitor brightness by 10
+ddcutil setvcp 10 +10
+
