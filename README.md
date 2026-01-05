@@ -103,3 +103,11 @@ Eww not showing → run:
 
 eww open bar
 
+##### 📌 Notes
+
+These dotfiles are tuned for Arch Linux + Hyprland
+
+You may need to adjust:
+Monitor names
+Keyboard layout
+Terminal & app launchers
