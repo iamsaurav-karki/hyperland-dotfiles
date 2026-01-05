@@ -4,6 +4,7 @@
 Personal Hyprland configuration with hyprland, hypridle, hyprpaper, eww, and helper scripts.
 
 📂 Structure
+```
 hypr/
 ├── eww/                # Eww widgets configuration
 ├── scripts/            # Custom helper scripts
@@ -12,6 +13,7 @@ hypr/
 ├── hyprpaper.conf      # Wallpaper configuration
 ├── some.jpg            # Sample wallpaper
 └── README.md
+```
 
 ##### Dependencies
 
@@ -60,15 +62,16 @@ chmod +x ~/.config/hypr/scripts/*
 5️⃣ Set wallpaper
 
 Edit hyprpaper.conf if needed:
-
+```
 preload = ~/Pictures/wallpapers/some.jpg
-wallpaper = ,~/Pictures/wallpapers/some.jpg
-
+wallpaper = ~/Pictures/wallpapers/some.jpg
+```
 
 Or copy the included image:
-
+```
 mkdir -p ~/Pictures/wallpapers
 cp some.jpg ~/Pictures/wallpapers/
+```
 
 6️⃣ Start required services
 
