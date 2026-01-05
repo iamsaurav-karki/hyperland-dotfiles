@@ -1,5 +1,6 @@
 # hyperland-dotfiles
 
+##### For Arch Distro
 
 Personal Hyprland configuration with hyprland, hypridle, hyprpaper, eww, and helper scripts.
 
@@ -18,9 +19,9 @@ hypr/
 ##### Dependencies
 
 Make sure the following packages are installed:
-
+```
 sudo pacman -S hyprland hyprpaper hyperlock hypridle eww-wayland waybar grim slurp wl-clipboard
-
+```
 
 #####  Optional but recommended:
 
