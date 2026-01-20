@@ -2,7 +2,7 @@
 
 ##### For Arch Distro
 
-Personal Hyprland configuration with hyprland, hypridle, hyprpaper, eww, and helper scripts.
+Personal Hyprland configuration with hyprland, hypridle, hyprpaper,swaylock, eww, and helper scripts.
 
 📂 Structure
 ```
@@ -20,7 +20,7 @@ hypr/
 
 Make sure the following packages are installed:
 ```
-sudo pacman -S hyprland hyprpaper hyperlock hypridle eww-wayland waybar grim slurp wl-clipboard
+sudo pacman -S hyprland hyprpaper hyperlock hypridle eww-wayland waybar grim slurp wl-clipboard swaylock
 ```
 
 #####  Optional but recommended:
